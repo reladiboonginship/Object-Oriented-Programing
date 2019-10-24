@@ -1,9 +1,5 @@
 <?php 
 
-// Jualan
-// Game
-// komik
-
 class Produk{
 	public $judul,
 		   $penulis,
