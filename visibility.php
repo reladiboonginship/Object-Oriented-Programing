@@ -1,5 +1,5 @@
 <?php 
-
+//visibility
 class Produk{
 	public $judul,
 		   $penulis,
