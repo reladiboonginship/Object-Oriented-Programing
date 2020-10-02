@@ -37,7 +37,7 @@ class Produk{
 	class Komik extends Produk{
 		public $jmlHalaman;
 
-		public function __construct( $judul = "judul", $penulis = "penulis", $penerbit = "penerbit", $harga = 0, $jmlHalaman = 0 ){
+		public function __consturuct( $judul = "judul", $penulis = "penulis", $penerbit = "penerbit" = 0 ){
 
 			parent::__construct(  $judul , $penulis , $penerbit , $harga );
 			$this->jmlHalaman = $jmlHalaman;
